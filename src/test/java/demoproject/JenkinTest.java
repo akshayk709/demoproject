@@ -34,7 +34,7 @@ public class JenkinTest {
 	public void Test1() throws IOException {
 		
 		driver.get("https://www.amazon.ae/");
-		
+		System.out.println("Commit Test");
 		Screenshot src = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
 		ImageIO.write(src.getImage(), "PNG", new File("F:\\Project\\result.png"));
 	}
