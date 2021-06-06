@@ -3,12 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="demoproject.JenkinTest">
-      <methods>
-      <include name="Test1">
-      </include>
-      </methods>
-      </class>
+    <class name="demoproject.AkshayTest"/>
+    <class name="demoproject.JenkinTest"/>
     </classes>
     
   </test> <!-- Test -->

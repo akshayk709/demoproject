@@ -1,57 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-06T11:06:06 IST" name="Default suite" finished-at="2021-06-06T11:07:45 IST" duration-ms="99530">
+  <suite started-at="2021-06-06T14:00:45 IST" name="Suite" finished-at="2021-06-06T14:00:45 IST" duration-ms="182">
     <groups>
     </groups>
-    <test started-at="2021-06-06T11:06:06 IST" name="Default test" finished-at="2021-06-06T11:07:45 IST" duration-ms="99530">
-      <class name="demoproject.JenkinTest">
-        <test-method is-config="true" signature="reporting()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:06:06 IST" name="reporting" finished-at="2021-06-06T11:06:07 IST" duration-ms="983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporting -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:06:07 IST" name="setup" finished-at="2021-06-06T11:06:12 IST" duration-ms="5350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Test1()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:06:12 IST" name="Test1" finished-at="2021-06-06T11:06:20 IST" duration-ms="7556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:06:20 IST" name="teardown" finished-at="2021-06-06T11:06:48 IST" duration-ms="28027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:06:48 IST" name="setup" finished-at="2021-06-06T11:06:51 IST" duration-ms="3539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Test2()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:06:51 IST" name="Test2" finished-at="2021-06-06T11:06:56 IST" duration-ms="4325" status="PASS">
+    <test started-at="2021-06-06T14:00:45 IST" name="Test" finished-at="2021-06-06T14:00:45 IST" duration-ms="182">
+      <class name="demoproject.AkshayTest">
+        <test-method signature="Test2()[pri:-2, instance:demoproject.AkshayTest@1700915]" started-at="2021-06-06T14:00:45 IST" name="Test2" finished-at="2021-06-06T14:00:45 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:06:56 IST" name="teardown" finished-at="2021-06-06T11:07:00 IST" duration-ms="4425" status="PASS">
+        <test-method signature="Test1()[pri:-1, instance:demoproject.AkshayTest@1700915]" started-at="2021-06-06T14:00:45 IST" name="Test1" finished-at="2021-06-06T14:00:45 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:07:00 IST" name="setup" finished-at="2021-06-06T11:07:04 IST" duration-ms="3527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Test3()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:07:04 IST" name="Test3" finished-at="2021-06-06T11:07:13 IST" duration-ms="9358" status="PASS">
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test3()[pri:0, instance:demoproject.AkshayTest@1700915]" started-at="2021-06-06T14:00:45 IST" name="Test3" finished-at="2021-06-06T14:00:45 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:07:13 IST" name="teardown" finished-at="2021-06-06T11:07:44 IST" duration-ms="31120" status="PASS">
+      </class> <!-- demoproject.AkshayTest -->
+      <class name="demoproject.JenkinTest">
+        <test-method is-config="true" signature="suite()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="suite" finished-at="2021-06-06T14:00:45 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite -->
+        <test-method is-config="true" signature="reporting()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="reporting" finished-at="2021-06-06T14:00:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="setup" finished-at="2021-06-06T14:00:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test3()[pri:-5, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="Test3" finished-at="2021-06-06T14:00:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="teardown" finished-at="2021-06-06T14:00:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:demoproject.JenkinTest@64cd705f]" started-at="2021-06-06T11:07:44 IST" name="endTest" finished-at="2021-06-06T11:07:45 IST" duration-ms="1213" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="setup" finished-at="2021-06-06T14:00:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test2()[pri:-4, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="Test2" finished-at="2021-06-06T14:00:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="teardown" finished-at="2021-06-06T14:00:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="setup" finished-at="2021-06-06T14:00:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test1()[pri:-3, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="Test1" finished-at="2021-06-06T14:00:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="teardown" finished-at="2021-06-06T14:00:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="endTest" finished-at="2021-06-06T14:00:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="Asuite()[pri:0, instance:demoproject.JenkinTest@48ae9b55]" started-at="2021-06-06T14:00:45 IST" name="Asuite" finished-at="2021-06-06T14:00:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asuite -->
       </class> <!-- demoproject.JenkinTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
