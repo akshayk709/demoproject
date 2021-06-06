@@ -11,7 +11,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class AkshayTest extends BaseClass{
 	
-	LoginPage l1 = new LoginPage();
+	//LoginPage l1 = new LoginPage();
 	
 	@BeforeClass
 	public void before() {
@@ -25,7 +25,7 @@ public class AkshayTest extends BaseClass{
 	public void Test1() throws IOException {
 		System.out.println("Im Test1 of Akshay CLass");
 		
-		System.out.println(l1.logindata());
+		//System.out.println(l1.logindata());
 		driver.get("https://www.amazon.ae/");
 		System.out.println();
 		
